@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background: whitesmoke;
+    height: 57px;
+    width: 100%;
+}
+
+.con {
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 27px;
+    margin: 0;
+}
+
+nav ul li a {
+    width: 18px;
+    height: 14px;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+#sidebar {
+    position: fixed;
+    width: 9%;
+    height: 100%;
+    left: -9%;
+    background-color: whitesmoke;
+}
+
+#sidebar li {
+    color: black;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.toggle-btn {
+    position: absolute;
+    left: 105%;
+    top: 15px;
+
+}
+
+.toggle-btn span {
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+.main {
+    max-width: 1136px;
+    margin-left: 177px;
+    margin-right: 127px;
+    margin-top: calc(165px - 90px);
+    margin-bottom: calc(165px - 90px);
+}
+
+.main .main__heading {
+    background-color: #0029ff;
+    font-weight: normal
+}
+
+.main .main__heading h1 {
+    font-size: 15px;
+}
+
+.main .main__content {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 43px 87px;
+    border-radius: 0 0 11px 13px;
+}
+
+.main .main__content .main__content__demotask {
+    display: block;
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background: whitesmoke;
+    margin-top: 20px;
+}
+
+.container ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li {
+    float: left;
+    list-style: none;
+    width: 42%;
+    height: 300px;
+    background: white;
+    margin: 20px 0px 20px 55px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.container ul li img {
+    width: 100%;
+    height: 278px;
+}
+
+.container ul li embed {
+    width: 100%;
+    height: 278px;
+}
+
+.container ul li:hover {
+    opacity: 0.8;
+}
+
+.container ul li .bottom {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: whitexx;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:1250px) {
+    .container ul li {
+        width: 40%;
+        margin-left: 40px;
+
+    }
+}
+.nxt__btn{
+    margin-top: 43px;
+}
+.nxt__btn button{
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+    border: none;
+    border-radius: 3px;
+    background-color: #0029ff;
+    color: #fff;
+    padding: 15px 21px;
+    cursor: pointer;
+}
